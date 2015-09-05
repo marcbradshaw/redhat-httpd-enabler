@@ -1,0 +1,13 @@
+RedHat httpd enabler
+====================
+
+Debian style control for a RedHat apache.
+
+A while back I needed to be able to use debian style apache control on a redhat
+based system, so the relevant helper scripts were extracted from debian and
+packaged up with rpm.
+
+Framework for the debian style, provides
+sites-available sites-enabled mods-available mods-enabled
+and associated util scripts.
+
